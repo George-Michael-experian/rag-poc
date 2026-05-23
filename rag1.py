@@ -18,4 +18,3 @@ sim_2_3 = np.dot(embeddings[1], embeddings[2])
 print(f"Dogs vs pets: {sim_1_2*100:.1f}% similar")
 print(f"Dogs vs Remote: {sim_1_3*100:.1f}% similar")
 print(f"Pets vs Remote: {sim_2_3*100:.1f}% similar")
-
