@@ -98,7 +98,9 @@ builder.set_finish_point("evaluate") #After evaluate, stop the workflow
 #===== Compile the Graph
 graph = builder.compile() #Converts your design → executable system
 
-#===== Run it
+# ========================
+# 5. Run code
+# ========================
 result = graph.invoke({"query": "What are the latest AI trends?"})
 
 print(result['answer'])
